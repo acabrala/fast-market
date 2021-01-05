@@ -1,0 +1,12 @@
+import { IAccountModel } from '../models/account'
+
+export interface IAddAccountModel {
+  name: string
+  email: string
+  password: string
+  phone: string
+}
+
+export interface IAddAccount {
+  add (account: IAddAccountModel): IAccountModel
+}
