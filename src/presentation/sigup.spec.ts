@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/strict-boolean-expressions */
 import { SignUpController } from './signup'
 describe('SignUp Controller', () => {
   test('Should returns 400 if no name is provided', () => {
